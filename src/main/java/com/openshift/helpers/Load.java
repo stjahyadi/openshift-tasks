@@ -6,7 +6,7 @@ public class Load {
         int numThreadsPerCore = 2;
         double load = 0.8;
         for (int thread = 0; thread < numCore * numThreadsPerCore; thread++) {
-            new BusyThread("Thread " + thread, load, duration).start();
+            new BusyThread("Threadxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx" + thread, load, duration).start();
         }
     }
 
