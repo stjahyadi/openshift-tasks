@@ -14,7 +14,7 @@ So startup by creating the project using the following command:
 ```
 oc new-project ocp-tasks --display-name="OpenShift Tasks" --description="Demonstrating many ways to deploy application on OpenShift"
 ```
-and here we go!
+and here we go! 
 
 ### #1 - Use provided JBoss EAP 7 S2I template
 
